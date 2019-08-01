@@ -28,10 +28,20 @@ header {
 
         .logo {
             width: 50%;
+
+            @media @mobile {
+                width: 100%;
+                text-align: center; 
+            }
         }
         .nav-element {
             width: 50/4%;
             text-align: right;
+
+            @media @mobile {
+                width: (100-2)/4%;
+                text-align: center; 
+            }
         }
 }
 
